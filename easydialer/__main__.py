@@ -71,7 +71,7 @@ def main():
 	parser_copyobject.add_argument('-i', '--input', default='dialer_config.xml', help='specify input xml config file location (default:.\\dialer_config.xml)')
 	parser_copyobject.set_defaults(func=copy_diaobj)
 	
-	parser_chkduplicates = subparsers.add_parser('chkduplicates', aliases=['cd'], description='check input file for dialer objects with duplicate guid')
+	parser_chkduplicates = subparsers.add_parser('chkduplicates', aliases=['cd'], description='check input file for dialer objects with duplicate guid', help='check input file for dialer objects with duplicate guid')
 	parser_chkduplicates.add_argument('-i', '--input', default='dialer_config.xml', help='specify input xml config file location (default:.\\dialer_config.xml)')
 	parser_chkduplicates.set_defaults(func=chk_dup)
 	
