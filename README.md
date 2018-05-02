@@ -2,7 +2,7 @@
 Command line utility offering possibility to perform various operations on the Pureconnect Interaction Dialer configuration file
 
 
-## Current available features:
+### Currently available features:
 
 #### GetGuid: Lists all dialer objects containing the passed name argument in its xml object name
 ```sh
