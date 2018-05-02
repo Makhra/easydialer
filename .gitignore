@@ -1,0 +1,4 @@
+*.xml
+*.egg-info/
+easydialer/__pycache__/
+Misc/
