@@ -9,7 +9,7 @@ Command line utility offering possibility to perform various operations on the P
 EasyDialer {getguid,gg} [-h] [-i INPUT] name
   name				name of object to query  
   -h, --help			show help message and exit  
-  -i INPUT, --input INPUT	specify input xml config file location (default:.\dialer_config.xml  
+  -i INPUT, --input INPUT	specify input xml config file location (default:.\dialer_config.xml)
 ```
 
   
